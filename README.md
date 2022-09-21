@@ -68,7 +68,7 @@ In the `data` folder, you will find a `csv` file containing anonymized data from
 
 Provided with this repo is also a `main.py` file with a minimal FastAPI implementation. You must implement the methods outlined in this module to build your API.
 
-To test you code, you can run `uvicorn main:app --reload` inside your directory. This should start the local server and you should be able to see the automatically generated API docs at `http://127.0.0.1:8000/docs`. Navigating here is a useful way to test your code.
+To test your API, you can run `uvicorn main:app --reload` inside your directory. This should start the local server and you should be able to see the automatically generated API docs at `http://127.0.0.1:8000/docs`. Navigating here is a useful way to test your code.
 
 If you wish to learn more about how to use `FastAPI`:
 - [Official FastAPI Docs](https://fastapi.tiangolo.com/)
