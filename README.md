@@ -76,6 +76,8 @@ If you wish to learn more about how to use `FastAPI`:
 # When you are finished
 Please upload a tarball of your repo to the google drive subfolder that was provided to you in your invite email
 
-# if you find any bugs
-This test may not be perfect, if there are bugs that make it impossible to implement any code provided as perscribed, feel free to fix this code. Be sure to describe what bugs there were, and what you had to do in order to fix them.
+# If you find any bugs
+This test may not be perfect, if there are bugs that make it impossible to implement any code provided as perscribed, feel free to fix this code. Be sure to describe what bugs there were, and what you had to do in order to fix them. 
+
+Additionally, if anything about this README is not clear, please feel free to email us any questions you have.
 
