@@ -3,6 +3,7 @@ A test of applicants DS / ML &amp; Ops Skills
 =======
 <p align="center"><a href="https://github.com/RociFi" target="blank"><img src="https://avatars.githubusercontent.com/u/86011685?s=200&v=4" width="80" alt="RociFi's Logo" /></a></p>
 <h1 align="center">RociFi</h1>
+<p align="center">Follow us on Twitter! <b>https://twitter.com/rocifi</b> 💜</p>
 <p align="center">Take home test to <b>join us</b> 💜</p>
 
 # The Mission
@@ -56,7 +57,9 @@ We expect you to provide a critical discussion of the strength and weaknesses of
 
 In the `data` folder, you will find a `csv` file containing anonymized data from real ETH addresses
 
-- The `fraud_sample.csv` contains row-by-row data and anonmyized features for real ETH addresses.
+- The `anonmyized_lending_df_bz2.pickle` contains row-by-row data and anonmyized features for real ETH addresses in a pandas dataframe.
+
+**Tip** The dataframe was pickled and compressed using bz2 compression, and pandas 1.3.4. To load the file, use pd.read_pickle('anonmyized_lending_df_bz2.pickle', compression='bz2')
 
 # FastAPI 101
 
