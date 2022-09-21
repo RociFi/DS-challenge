@@ -24,7 +24,7 @@ The scaling for the Fraud Score is up to you, for example, you could return a Fr
 
 As a bonus challange, come up with a way to filter out some addresses before training the model on them, are certain addresses outliers? Show what you learned from the data that drove your decision.  necessarily at the end. 
 
-> **Tip**The index in the dataframe are anonmyized addresses, and the "to" column are where the transaction is going to. F0-F31 are anomyized features. We have also included anonmyized transaction id's if that may be helpful. "Fraud" is a {0,1} variable where "1" means Fraud and "0" means non-Fraud.
+> **Tip** The index in the dataframe are anonmyized addresses, and the "to" column are where the transaction is going to. F0-F31 are anomyized features. We have also included anonmyized transaction id's if that may be helpful. "Fraud" is a {0,1} variable where "1" means Fraud and "0" means non-Fraud.
 
 # Delivery
 
@@ -42,7 +42,7 @@ To achieve your mission, you'll have to deliver:
 We expect you to implement all sections of code where an implementation is requested in the comments. Additionaly, we expect you to justify all the decisions that you make.
 
 
-**What's important for us**
+**What's important for us**  
 We expect you to provide a critical discussion of the strength and weaknesses of your approach, and to elaborate on possible ways to improve your work.
 
 - You must provide us with the necessary information to create a working environment to run your code.
