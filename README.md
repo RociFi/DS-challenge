@@ -18,9 +18,11 @@ You will deal with Defi Lending Transactions data. We suggest you take a look an
 
 ## Predict if an address is Fraudulent
 
-Set up a prediction function that takes an address, a list of transactions recorded on the address, and outputs a score for the chance that this address is fraud.
+Set up a prediction function that takes an address, a list of transactions recorded on the address, and outputs a score for the chance that this address is fraud. You should connect this to your API built using FastAPI, so that if an address refenced by it is contained in the historical database, a Fraud Score is return. 
 
-Outgoing is defined as the sum of all transactions with `< 0` amount over a certain time-period. So to get the monthly outgoing, you can sum the negative transactions over monthly periods.
+Fraud is a label assigned to an address for which RociFi believes, regardless of NFCS, would likely look to engage in certain transactional behaviors that are harmful to the RociFi ecosystem and dishonest to the comunity. 
+
+The scaling for the Fraud Score is up to you, for example, you could return a Fraud score from 1-100. Please explain the scaling for your fraud score.
 
 As a bonus challange, come up with a way to filter out some borrowers before passing them to your probabilistic model. Show what you learned from the data that drove your decision. 
 
