@@ -60,7 +60,7 @@ We expect you to provide a critical discussion of the strength and weaknesses of
 
 In the `data` folder, you will find a `csv` file containing anonymized data from real ETH addresses
 
-- The `anonmyized_lending_df_bz2.pickle` contains row-by-row data and anonmyized features for real ETH addresses in a pandas dataframe. The final column "fraud" takes a value of "0" if an address is fraudulent, and a value of "1" if it is not fraudulent.
+- The `anonmyized_lending_df_bz2.pickle` contains row-by-row data and anonmyized features for real ETH addresses in a pandas dataframe. The final column "fraud" takes a value of "0" if an address not is fraudulent, and a value of "1" if it is fraudulent.
 
 **Tip** The dataframe was pickled and compressed using bz2 compression, and pandas 1.3.4. To load the file, use pd.read_pickle('anonmyized_lending_df_bz2.pickle', compression='bz2')
 
