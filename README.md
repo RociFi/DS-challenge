@@ -26,7 +26,7 @@ As a bonus challange, come up with a way to filter out some borrowers before pas
 
 > **Tip 1.** It might make more sense to define a month as a 30 day period rather than the month itself since the snapshots can be taken at any point during the month and not necessarily at the end. 
 
-**Tip 2.** The index in the dataframe are anonmyized addresses, and the "to" column are where the transaction is going to. F0-F31 are anomyized features. We have also included anonmyized transaction id's if that may be helpful.
+> **Tip 2.**The index in the dataframe are anonmyized addresses, and the "to" column are where the transaction is going to. F0-F31 are anomyized features. We have also included anonmyized transaction id's if that may be helpful.
 
 # Delivery
 
