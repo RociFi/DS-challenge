@@ -46,6 +46,7 @@ We expect you to implement all sections of code where an implementation is reque
 We expect you to provide a critical discussion of the strength and weaknesses of your approach, and to elaborate on possible ways to improve your work.
 
 - You must provide us with the necessary information to create a working environment to run your code.
+- You must provide code that runs test cases on your API, along with clear documentation on how to run thus test cases on our end.   
 - Your API must be able to run and respond to requests without error.
 - It is very important that you guide us through your thought process, that you motivate your choices, and that you discuss the strengths and weaknesses of your approach and possible ways to improve your predictions. 
 
