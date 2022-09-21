@@ -8,13 +8,13 @@ A test of applicants DS / ML &amp; Ops Skills
 
 # The Mission
 
-Your mission, should you choose to accept it, is to demonstrate your ability to work with lending data, build a model, and serve it using an API framework. Your task is to use the provided data (more info at the bottom) to design a model capable of ranking borrowers by the chance they are fraudulent.  
+Your mission, should you choose to accept it, is to demonstrate your ability to work with blokchain data, build a model, and serve it using an API framework. Your task is to use the provided data (more info at the bottom) to design a model capable of ranking borrowers by the chance they are fraudulent.  
 
 Your model should then be served through the small [FastAPI](https://fastapi.tiangolo.com/) file provided. 
 
 ## Before you pick a model
 
-You will deal with Defi Lending Transactions data. We suggest you take a look and explore them. Since those are real data, they are noisy and sparse, and there may be duplicated data.
+You will deal with anonmyized ETH Transactions data. We suggest you take a look and explore them. We expect you to proform an EDA on the dataset.
 
 ## Predict if an address is Fraudulent
 
