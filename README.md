@@ -74,16 +74,6 @@ In order to serve your model in the API, move your preprocessing to a function w
 
 You can test your API using the `test_main.py` file, just make sure you are running the server by calling `uvicorn main:app` in another terminal window.
 
-If you use `pandas`, you can convert the `transactions` of type `List[Transaction]` passed to the API to a `pd.DataFrame` by calling:
-
-```python
-import pandas as pd
-
-df = pd.DataFrame(map(dict, transactions))
-```
-
-This is because the objects passed to the API are using `pydantic`'s `BaseModel` class which allows easy conversion from object to dictionary through the default `.dict()` implementation.
-
 If you wish to learn more about how to use `FastAPI`:
 
 - [Official FastAPI Docs](https://fastapi.tiangolo.com/)
