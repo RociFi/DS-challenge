@@ -3,7 +3,7 @@ A test of applicants DS / ML &amp; Ops Skills
 =======
 <p align="center"><a href="https://github.com/RociFi" target="blank"><img src="https://avatars.githubusercontent.com/u/86011685?s=200&v=4" width="80" alt="RociFi's Logo" /></a></p>
 <h1 align="center">RociFi</h1>
-<p align="center">Follow us on Twitter! ç 💜</p>
+<p align="center">Follow us on Twitter! 💜</p>
 <p align="center">Take home test to <b>join us</b> 💜</p>
 
 # The Mission
