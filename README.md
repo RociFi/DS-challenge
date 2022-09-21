@@ -16,7 +16,7 @@ Your model should then be served through the small [FastAPI](https://fastapi.tia
 
 You will deal with Defi Lending Transactions data. We suggest you take a look and explore them. Since those are real data, they are noisy and sparse, and there may be duplicated data.
 
-## Predict next month outgoing given the past 6 months of transactions
+## Predict if an address is Fraudulent
 
 Set up a prediction function that takes an address, a list of transactions recorded on the address, and outputs a score for the chance that this address is fraud.
 
@@ -25,6 +25,8 @@ Outgoing is defined as the sum of all transactions with `< 0` amount over a cert
 As a bonus challange, come up with a way to filter out some borrowers before passing them to your probabilistic model. Show what you learned from the data that drove your decision. 
 
 > **Tip 1.** It might make more sense to define a month as a 30 day period rather than the month itself since the snapshots can be taken at any point during the month and not necessarily at the end. 
+
+**Tip 2.** The index in the dataframe are anonmyized addresses, and the "to" column are where the transaction is going to. F0-F31 are anomyized features. We have also included anonmyized transaction id's if that may be helpful.
 
 # Delivery
 
